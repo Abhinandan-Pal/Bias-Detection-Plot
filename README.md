@@ -24,3 +24,16 @@ The data stored in X and Y are replaced according to the range number they belon
 The number of times a particular combination of range number values for x and y are found. And stored in a dataset which is then used to plot a 2D hist plot.
 
 ![Final_dataset](Images/Final_dataset.png?raw=true "Final_dataset")
+
+## Data set used in given Example
+As my plot is meant for numerical data types I choose a data set with many numeric columns. I came across this data set while learning regression models. This data set can be highly useful to make a model to predict the price.
+
+## Advantages of this plot
+1) It gives an idea of a correlation between two variables.
+2) It helps us to detect bias in the dataset.
+3) As it is based on quantile values, issues with too many data points in a close range are dealt with.
+4) Unlike the scatter plot for finding correlation, we can get an idea of how many data points are in a region based on colour.
+
+## Disadvantages of this plot
+1) it is slower as it involves a few background calculation.
+
